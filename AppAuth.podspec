@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-  s.name         = "AppAuth"
+  s.name         = "AppAuth-Extension"
   s.version      = "1.3.0"
   s.summary      = "AppAuth for iOS and macOS is a client SDK for communicating with OAuth 2.0 and OpenID Connect providers."
 
@@ -19,7 +19,7 @@ It follows the OAuth 2.0 for Native Apps best current practice
 
                    DESC
 
-  s.homepage     = "https://openid.github.io/AppAuth-iOS"
+  s.homepage     = "https://github.com/TravelC/AppAuth-iOS"
   s.license      = "Apache License, Version 2.0"
   s.authors      = { "William Denniss" => "wdenniss@google.com",
                      "Steven E Wright" => "stevewright@google.com",
@@ -30,9 +30,9 @@ It follows the OAuth 2.0 for Native Apps best current practice
   #       classes of AppAuth with tokens on watchOS and tvOS, but currently the
   #       library won't help you obtain authorization grants on those platforms.
 
-  s.platforms    = { :ios => "7.0", :osx => "10.9", :watchos => "2.0", :tvos => "9.0" }
+  s.platforms    = { :ios => "11.0", :osx => "10.9", :watchos => "2.0", :tvos => "9.0" }
 
-  s.source       = { :git => "https://github.com/openid/AppAuth-iOS.git", :tag => s.version }
+  s.source       = { :git => "hhttps://github.com/TravelC/AppAuth-iOS.git", :tag => s.version }
   s.requires_arc = true
 
   # Subspec for the core AppAuth library classes only, suitable for extensions.
